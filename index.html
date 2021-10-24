@@ -16,7 +16,7 @@
         <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="index.html" class="float-sm-start visible-md visible-large">
+                    <a href="index.html" class="float-sm-start d-none d-md-block">
                         <div id="logo-img" alt="Logo Image"></div>
                     </a>
 
@@ -26,6 +26,23 @@
                             <img src="images/whatdachingchongdoin.jpg" width="50px" alt="Chinese Certification">
                             <span>Chinese Certified.</span>
                         </p>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsable-nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="collapsable-nav-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="collapsable-nav-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Some Other Action</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
